@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <div>
+      <h2>Signup Form</h2>
+      <form id="signup-form">
+        <label for="signup-email">Email:</label>
+        <input id="signup-email" name="signup-email" /><br /><br />
+        <label for="signup-password">Password:</label>
+        <input
+          type="password"
+          id="signup-password"
+          name="password"
+          required
+        /><br /><br />
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+
+    <div>
+      <h2>Signin Form</h2>
+      <form id="signin-form">
+        <label for="signin-email">Email:</label>
+        <input id="signin-email" name="signin-email" /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="signin-password"
+          name="signin-password"
+          required
+        /><br /><br />
+        <button type="submit">Sign in</button>
+      </form>
+    </div>
+  </body>
+  <script src="./signin.js"></script>
+
+  <script src="./signup.js"></script>
+</html>
